@@ -1,0 +1,14 @@
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\bin\Debug\net9.0\Activity_4.exe
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\bin\Debug\net9.0\Activity_4.deps.json
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\bin\Debug\net9.0\Activity_4.runtimeconfig.json
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\bin\Debug\net9.0\Activity_4.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\bin\Debug\net9.0\Activity_4.pdb
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.AssemblyInfoInputs.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.AssemblyInfo.cs
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.csproj.CoreCompileInputs.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\refint\Activity_4.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.pdb
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\Activity_4.genruntimeconfig.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_4\obj\Debug\net9.0\ref\Activity_4.dll

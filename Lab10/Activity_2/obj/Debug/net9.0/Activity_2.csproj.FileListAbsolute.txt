@@ -1,0 +1,14 @@
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\bin\Debug\net9.0\Activity_2.exe
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\bin\Debug\net9.0\Activity_2.deps.json
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\bin\Debug\net9.0\Activity_2.runtimeconfig.json
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\bin\Debug\net9.0\Activity_2.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\bin\Debug\net9.0\Activity_2.pdb
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.AssemblyInfoInputs.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.AssemblyInfo.cs
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.csproj.CoreCompileInputs.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\refint\Activity_2.dll
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.pdb
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\Activity_2.genruntimeconfig.cache
+C:\Users\ruchi\OneDrive\Documents\Lab10\Activity_2\obj\Debug\net9.0\ref\Activity_2.dll
