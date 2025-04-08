@@ -1,0 +1,560 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "requests",
+            "requests.__version__",
+            "requests._internal_utils",
+            "requests.adapters",
+            "requests.api",
+            "requests.auth",
+            "requests.certs",
+            "requests.compat",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.help",
+            "requests.hooks",
+            "requests.models",
+            "requests.packages",
+            "requests.sessions",
+            "requests.status_codes",
+            "requests.structures",
+            "requests.utils"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "certifi": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.certs"
+        ],
+        "name": "certifi",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/certifi/__init__.py"
+    },
+    "charset_normalizer": {
+        "bacon": 2,
+        "imported_by": [
+            "requests",
+            "requests.help"
+        ],
+        "name": "charset_normalizer",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/charset_normalizer/__init__.py"
+    },
+    "cryptography": {
+        "bacon": 2,
+        "imported_by": [
+            "cryptography",
+            "requests",
+            "requests.help",
+            "urllib3.contrib.pyopenssl"
+        ],
+        "imports": [
+            "cryptography"
+        ],
+        "name": "cryptography",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/cryptography/__init__.py"
+    },
+    "idna": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.help",
+            "requests.models",
+            "urllib3.contrib.pyopenssl"
+        ],
+        "name": "idna",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/idna/__init__.py"
+    },
+    "requests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.api",
+            "requests.help",
+            "requests.utils"
+        ],
+        "imports": [
+            "charset_normalizer",
+            "cryptography",
+            "requests",
+            "requests.__version__",
+            "requests.api",
+            "requests.exceptions",
+            "requests.models",
+            "requests.packages",
+            "requests.sessions",
+            "requests.status_codes",
+            "requests.utils",
+            "urllib3",
+            "urllib3.contrib",
+            "urllib3.contrib.pyopenssl",
+            "urllib3.exceptions"
+        ],
+        "name": "requests",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/__init__.py"
+    },
+    "requests.__version__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.help",
+            "requests.utils"
+        ],
+        "name": "requests.__version__",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/__version__.py"
+    },
+    "requests._internal_utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.auth",
+            "requests.cookies",
+            "requests.models",
+            "requests.sessions",
+            "requests.utils"
+        ],
+        "imports": [
+            "requests.compat"
+        ],
+        "name": "requests._internal_utils",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/_internal_utils.py"
+    },
+    "requests.adapters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.sessions"
+        ],
+        "imports": [
+            "requests.auth",
+            "requests.compat",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.models",
+            "requests.structures",
+            "requests.utils",
+            "urllib3",
+            "urllib3.contrib",
+            "urllib3.contrib.socks",
+            "urllib3.exceptions",
+            "urllib3.poolmanager",
+            "urllib3.util",
+            "urllib3.util.retry",
+            "urllib3.util.ssl_"
+        ],
+        "name": "requests.adapters",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/adapters.py"
+    },
+    "requests.api": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests"
+        ],
+        "imports": [
+            "requests",
+            "requests.sessions"
+        ],
+        "name": "requests.api",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/api.py"
+    },
+    "requests.auth": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.adapters",
+            "requests.models",
+            "requests.sessions"
+        ],
+        "imports": [
+            "requests._internal_utils",
+            "requests.compat",
+            "requests.cookies",
+            "requests.utils"
+        ],
+        "name": "requests.auth",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/auth.py"
+    },
+    "requests.certs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.utils"
+        ],
+        "imports": [
+            "certifi"
+        ],
+        "name": "requests.certs",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/certs.py"
+    },
+    "requests.compat": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests._internal_utils",
+            "requests.adapters",
+            "requests.auth",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.models",
+            "requests.packages",
+            "requests.sessions",
+            "requests.structures",
+            "requests.utils"
+        ],
+        "imports": [
+            "urllib3"
+        ],
+        "name": "requests.compat",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/compat.py"
+    },
+    "requests.cookies": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.adapters",
+            "requests.auth",
+            "requests.models",
+            "requests.sessions",
+            "requests.utils"
+        ],
+        "imports": [
+            "requests._internal_utils",
+            "requests.compat"
+        ],
+        "name": "requests.cookies",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/cookies.py"
+    },
+    "requests.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.adapters",
+            "requests.models",
+            "requests.sessions",
+            "requests.utils"
+        ],
+        "imports": [
+            "requests.compat",
+            "urllib3",
+            "urllib3.exceptions"
+        ],
+        "name": "requests.exceptions",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/exceptions.py"
+    },
+    "requests.help": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "charset_normalizer",
+            "cryptography",
+            "idna",
+            "requests",
+            "requests.__version__",
+            "urllib3",
+            "urllib3.contrib",
+            "urllib3.contrib.pyopenssl"
+        ],
+        "name": "requests.help",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/help.py"
+    },
+    "requests.hooks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.models",
+            "requests.sessions"
+        ],
+        "name": "requests.hooks",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/hooks.py"
+    },
+    "requests.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.adapters",
+            "requests.sessions"
+        ],
+        "imports": [
+            "idna",
+            "requests._internal_utils",
+            "requests.auth",
+            "requests.compat",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.hooks",
+            "requests.status_codes",
+            "requests.structures",
+            "requests.utils",
+            "urllib3",
+            "urllib3.exceptions",
+            "urllib3.fields",
+            "urllib3.filepost",
+            "urllib3.util"
+        ],
+        "name": "requests.models",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/models.py"
+    },
+    "requests.packages": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests"
+        ],
+        "imports": [
+            "requests.compat"
+        ],
+        "name": "requests.packages",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/packages.py"
+    },
+    "requests.sessions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.api"
+        ],
+        "imports": [
+            "requests._internal_utils",
+            "requests.adapters",
+            "requests.auth",
+            "requests.compat",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.hooks",
+            "requests.models",
+            "requests.status_codes",
+            "requests.structures",
+            "requests.utils"
+        ],
+        "name": "requests.sessions",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/sessions.py"
+    },
+    "requests.status_codes": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.models",
+            "requests.sessions"
+        ],
+        "imports": [
+            "requests.structures"
+        ],
+        "name": "requests.status_codes",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/status_codes.py"
+    },
+    "requests.structures": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests.adapters",
+            "requests.models",
+            "requests.sessions",
+            "requests.status_codes",
+            "requests.utils"
+        ],
+        "imports": [
+            "requests.compat"
+        ],
+        "name": "requests.structures",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/structures.py"
+    },
+    "requests.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "requests",
+            "requests.adapters",
+            "requests.auth",
+            "requests.models",
+            "requests.sessions"
+        ],
+        "imports": [
+            "requests",
+            "requests.__version__",
+            "requests._internal_utils",
+            "requests.certs",
+            "requests.compat",
+            "requests.cookies",
+            "requests.exceptions",
+            "requests.structures",
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "requests.utils",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/src/requests/utils.py"
+    },
+    "urllib3": {
+        "bacon": 2,
+        "imported_by": [
+            "requests",
+            "requests.adapters",
+            "requests.compat",
+            "requests.exceptions",
+            "requests.help",
+            "requests.models",
+            "requests.utils",
+            "urllib3",
+            "urllib3.contrib.pyopenssl"
+        ],
+        "imports": [
+            "urllib3",
+            "urllib3.contrib",
+            "urllib3.exceptions",
+            "urllib3.filepost",
+            "urllib3.poolmanager",
+            "urllib3.util",
+            "urllib3.util.retry"
+        ],
+        "name": "urllib3",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/__init__.py"
+    },
+    "urllib3.contrib": {
+        "bacon": 2,
+        "imported_by": [
+            "requests",
+            "requests.adapters",
+            "requests.help",
+            "urllib3"
+        ],
+        "name": "urllib3.contrib",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/contrib/__init__.py"
+    },
+    "urllib3.contrib.pyopenssl": {
+        "bacon": 2,
+        "imported_by": [
+            "requests",
+            "requests.help"
+        ],
+        "imports": [
+            "cryptography",
+            "idna",
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "urllib3.contrib.pyopenssl",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/contrib/pyopenssl.py"
+    },
+    "urllib3.contrib.socks": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.adapters"
+        ],
+        "imports": [
+            "urllib3.exceptions",
+            "urllib3.poolmanager",
+            "urllib3.util"
+        ],
+        "name": "urllib3.contrib.socks",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/contrib/socks.py"
+    },
+    "urllib3.exceptions": {
+        "bacon": 2,
+        "imported_by": [
+            "requests",
+            "requests.adapters",
+            "requests.exceptions",
+            "requests.models",
+            "urllib3",
+            "urllib3.contrib.socks",
+            "urllib3.poolmanager",
+            "urllib3.util.retry",
+            "urllib3.util.ssl_"
+        ],
+        "imports": [
+            "urllib3.util",
+            "urllib3.util.retry"
+        ],
+        "name": "urllib3.exceptions",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/exceptions.py"
+    },
+    "urllib3.fields": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.models",
+            "urllib3.filepost"
+        ],
+        "name": "urllib3.fields",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/fields.py"
+    },
+    "urllib3.filepost": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.models",
+            "urllib3"
+        ],
+        "imports": [
+            "urllib3.fields"
+        ],
+        "name": "urllib3.filepost",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/filepost.py"
+    },
+    "urllib3.poolmanager": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.adapters",
+            "urllib3",
+            "urllib3.contrib.socks"
+        ],
+        "imports": [
+            "urllib3.exceptions",
+            "urllib3.util",
+            "urllib3.util.retry"
+        ],
+        "name": "urllib3.poolmanager",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/poolmanager.py"
+    },
+    "urllib3.util": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.adapters",
+            "requests.models",
+            "requests.utils",
+            "urllib3",
+            "urllib3.contrib.pyopenssl",
+            "urllib3.contrib.socks",
+            "urllib3.exceptions",
+            "urllib3.poolmanager"
+        ],
+        "imports": [
+            "urllib3.util.retry",
+            "urllib3.util.ssl_"
+        ],
+        "name": "urllib3.util",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/util/__init__.py"
+    },
+    "urllib3.util.retry": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.adapters",
+            "urllib3",
+            "urllib3.exceptions",
+            "urllib3.poolmanager",
+            "urllib3.util"
+        ],
+        "imports": [
+            "urllib3.exceptions"
+        ],
+        "name": "urllib3.util.retry",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/util/retry.py"
+    },
+    "urllib3.util.ssl_": {
+        "bacon": 2,
+        "imported_by": [
+            "requests.adapters",
+            "urllib3.util"
+        ],
+        "imports": [
+            "urllib3.exceptions"
+        ],
+        "name": "urllib3.util.ssl_",
+        "path": "/home/ruchika/STT_A3/Lab9/requests/lab9Env/lib/python3.12/site-packages/urllib3/util/ssl_.py"
+    }
+}

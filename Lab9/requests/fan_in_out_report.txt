@@ -1,0 +1,138 @@
+Fan-In and Fan-Out per module:
+
+Module: __main__
+  Fan-In  = 0 (Used by: [])
+  Fan-Out = 18 (Uses:    ['requests', 'requests.__version__', 'requests._internal_utils', 'requests.adapters', 'requests.api', 'requests.auth', 'requests.certs', 'requests.compat', 'requests.cookies', 'requests.exceptions', 'requests.help', 'requests.hooks', 'requests.models', 'requests.packages', 'requests.sessions', 'requests.status_codes', 'requests.structures', 'requests.utils'])
+
+Module: certifi
+  Fan-In  = 1 (Used by: ['requests.certs'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: charset_normalizer
+  Fan-In  = 2 (Used by: ['requests', 'requests.help'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: cryptography
+  Fan-In  = 3 (Used by: ['requests', 'requests.help', 'urllib3.contrib.pyopenssl'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: idna
+  Fan-In  = 3 (Used by: ['requests.help', 'requests.models', 'urllib3.contrib.pyopenssl'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: requests
+  Fan-In  = 4 (Used by: ['__main__', 'requests.api', 'requests.help', 'requests.utils'])
+  Fan-Out = 14 (Uses:    ['charset_normalizer', 'cryptography', 'requests.__version__', 'requests.api', 'requests.exceptions', 'requests.models', 'requests.packages', 'requests.sessions', 'requests.status_codes', 'requests.utils', 'urllib3', 'urllib3.contrib', 'urllib3.contrib.pyopenssl', 'urllib3.exceptions'])
+
+Module: requests.__version__
+  Fan-In  = 4 (Used by: ['__main__', 'requests', 'requests.help', 'requests.utils'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: requests._internal_utils
+  Fan-In  = 6 (Used by: ['__main__', 'requests.auth', 'requests.cookies', 'requests.models', 'requests.sessions', 'requests.utils'])
+  Fan-Out = 1 (Uses:    ['requests.compat'])
+
+Module: requests.adapters
+  Fan-In  = 2 (Used by: ['__main__', 'requests.sessions'])
+  Fan-Out = 15 (Uses:    ['requests.auth', 'requests.compat', 'requests.cookies', 'requests.exceptions', 'requests.models', 'requests.structures', 'requests.utils', 'urllib3', 'urllib3.contrib', 'urllib3.contrib.socks', 'urllib3.exceptions', 'urllib3.poolmanager', 'urllib3.util', 'urllib3.util.retry', 'urllib3.util.ssl_'])
+
+Module: requests.api
+  Fan-In  = 2 (Used by: ['__main__', 'requests'])
+  Fan-Out = 2 (Uses:    ['requests', 'requests.sessions'])
+
+Module: requests.auth
+  Fan-In  = 4 (Used by: ['__main__', 'requests.adapters', 'requests.models', 'requests.sessions'])
+  Fan-Out = 4 (Uses:    ['requests._internal_utils', 'requests.compat', 'requests.cookies', 'requests.utils'])
+
+Module: requests.certs
+  Fan-In  = 2 (Used by: ['__main__', 'requests.utils'])
+  Fan-Out = 1 (Uses:    ['certifi'])
+
+Module: requests.compat
+  Fan-In  = 11 (Used by: ['__main__', 'requests._internal_utils', 'requests.adapters', 'requests.auth', 'requests.cookies', 'requests.exceptions', 'requests.models', 'requests.packages', 'requests.sessions', 'requests.structures', 'requests.utils'])
+  Fan-Out = 1 (Uses:    ['urllib3'])
+
+Module: requests.cookies
+  Fan-In  = 6 (Used by: ['__main__', 'requests.adapters', 'requests.auth', 'requests.models', 'requests.sessions', 'requests.utils'])
+  Fan-Out = 2 (Uses:    ['requests._internal_utils', 'requests.compat'])
+
+Module: requests.exceptions
+  Fan-In  = 6 (Used by: ['__main__', 'requests', 'requests.adapters', 'requests.models', 'requests.sessions', 'requests.utils'])
+  Fan-Out = 3 (Uses:    ['requests.compat', 'urllib3', 'urllib3.exceptions'])
+
+Module: requests.help
+  Fan-In  = 1 (Used by: ['__main__'])
+  Fan-Out = 8 (Uses:    ['charset_normalizer', 'cryptography', 'idna', 'requests', 'requests.__version__', 'urllib3', 'urllib3.contrib', 'urllib3.contrib.pyopenssl'])
+
+Module: requests.hooks
+  Fan-In  = 3 (Used by: ['__main__', 'requests.models', 'requests.sessions'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: requests.models
+  Fan-In  = 4 (Used by: ['__main__', 'requests', 'requests.adapters', 'requests.sessions'])
+  Fan-Out = 15 (Uses:    ['idna', 'requests._internal_utils', 'requests.auth', 'requests.compat', 'requests.cookies', 'requests.exceptions', 'requests.hooks', 'requests.status_codes', 'requests.structures', 'requests.utils', 'urllib3', 'urllib3.exceptions', 'urllib3.fields', 'urllib3.filepost', 'urllib3.util'])
+
+Module: requests.packages
+  Fan-In  = 2 (Used by: ['__main__', 'requests'])
+  Fan-Out = 1 (Uses:    ['requests.compat'])
+
+Module: requests.sessions
+  Fan-In  = 3 (Used by: ['__main__', 'requests', 'requests.api'])
+  Fan-Out = 11 (Uses:    ['requests._internal_utils', 'requests.adapters', 'requests.auth', 'requests.compat', 'requests.cookies', 'requests.exceptions', 'requests.hooks', 'requests.models', 'requests.status_codes', 'requests.structures', 'requests.utils'])
+
+Module: requests.status_codes
+  Fan-In  = 4 (Used by: ['__main__', 'requests', 'requests.models', 'requests.sessions'])
+  Fan-Out = 1 (Uses:    ['requests.structures'])
+
+Module: requests.structures
+  Fan-In  = 6 (Used by: ['__main__', 'requests.adapters', 'requests.models', 'requests.sessions', 'requests.status_codes', 'requests.utils'])
+  Fan-Out = 1 (Uses:    ['requests.compat'])
+
+Module: requests.utils
+  Fan-In  = 6 (Used by: ['__main__', 'requests', 'requests.adapters', 'requests.auth', 'requests.models', 'requests.sessions'])
+  Fan-Out = 10 (Uses:    ['requests', 'requests.__version__', 'requests._internal_utils', 'requests.certs', 'requests.compat', 'requests.cookies', 'requests.exceptions', 'requests.structures', 'urllib3', 'urllib3.util'])
+
+Module: urllib3
+  Fan-In  = 8 (Used by: ['requests', 'requests.adapters', 'requests.compat', 'requests.exceptions', 'requests.help', 'requests.models', 'requests.utils', 'urllib3.contrib.pyopenssl'])
+  Fan-Out = 6 (Uses:    ['urllib3.contrib', 'urllib3.exceptions', 'urllib3.filepost', 'urllib3.poolmanager', 'urllib3.util', 'urllib3.util.retry'])
+
+Module: urllib3.contrib
+  Fan-In  = 4 (Used by: ['requests', 'requests.adapters', 'requests.help', 'urllib3'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: urllib3.contrib.pyopenssl
+  Fan-In  = 2 (Used by: ['requests', 'requests.help'])
+  Fan-Out = 4 (Uses:    ['cryptography', 'idna', 'urllib3', 'urllib3.util'])
+
+Module: urllib3.contrib.socks
+  Fan-In  = 1 (Used by: ['requests.adapters'])
+  Fan-Out = 3 (Uses:    ['urllib3.exceptions', 'urllib3.poolmanager', 'urllib3.util'])
+
+Module: urllib3.exceptions
+  Fan-In  = 9 (Used by: ['requests', 'requests.adapters', 'requests.exceptions', 'requests.models', 'urllib3', 'urllib3.contrib.socks', 'urllib3.poolmanager', 'urllib3.util.retry', 'urllib3.util.ssl_'])
+  Fan-Out = 2 (Uses:    ['urllib3.util', 'urllib3.util.retry'])
+
+Module: urllib3.fields
+  Fan-In  = 2 (Used by: ['requests.models', 'urllib3.filepost'])
+  Fan-Out = 0 (Uses:    [])
+
+Module: urllib3.filepost
+  Fan-In  = 2 (Used by: ['requests.models', 'urllib3'])
+  Fan-Out = 1 (Uses:    ['urllib3.fields'])
+
+Module: urllib3.poolmanager
+  Fan-In  = 3 (Used by: ['requests.adapters', 'urllib3', 'urllib3.contrib.socks'])
+  Fan-Out = 3 (Uses:    ['urllib3.exceptions', 'urllib3.util', 'urllib3.util.retry'])
+
+Module: urllib3.util
+  Fan-In  = 8 (Used by: ['requests.adapters', 'requests.models', 'requests.utils', 'urllib3', 'urllib3.contrib.pyopenssl', 'urllib3.contrib.socks', 'urllib3.exceptions', 'urllib3.poolmanager'])
+  Fan-Out = 2 (Uses:    ['urllib3.util.retry', 'urllib3.util.ssl_'])
+
+Module: urllib3.util.retry
+  Fan-In  = 5 (Used by: ['requests.adapters', 'urllib3', 'urllib3.exceptions', 'urllib3.poolmanager', 'urllib3.util'])
+  Fan-Out = 1 (Uses:    ['urllib3.exceptions'])
+
+Module: urllib3.util.ssl_
+  Fan-In  = 2 (Used by: ['requests.adapters', 'urllib3.util'])
+  Fan-Out = 1 (Uses:    ['urllib3.exceptions'])
+
